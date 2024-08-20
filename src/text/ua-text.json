@@ -19,22 +19,26 @@
     "card1": {
       "title": "Minecel Line",
       "category": "minecel",
-      "type": "professional"
+      "type": "professional",
+      "img": "minecel.png"
     },
     "card2": {
       "title": "Pure Balance Line",
       "category": "cleansing",
-      "type": "professional"
+      "type": "professional",
+      "img": "cleansing.png"
     },
     "car3": {
       "title": "Post Rays Line",
       "category": "regeneration",
-      "type": "professional"
+      "type": "professional",
+      "img": "regeneration.png"
     },
     "card4": {
       "title": "Minecel Line",
       "category": "minecel",
-      "type": "professional"
+      "type": "professional",
+      "img": "regeneration.png"
     }
   }
 }

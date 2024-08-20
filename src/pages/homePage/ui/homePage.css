@@ -37,9 +37,9 @@
   --size: 30px;
   width: calc(var(--size) * 2);
   height: var(--size);
-  padding: 11px;
+  padding: 30px 100px;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left: 50%;
   transform: translate(0%, 0);
 }
@@ -80,4 +80,22 @@
 .hero__scroll:hover .hero-scroll__right {
   transform: translate(-10%, -50%) translate(0%, 100%) rotate(-20deg);
   border-radius: 10px;
+}
+
+.products {
+}
+
+.products__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.products__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  list-style: none;
+  padding: 0;
 }

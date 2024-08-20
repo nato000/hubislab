@@ -35,6 +35,7 @@ export const HomePage = () => {
                   title={card.title}
                   category={card.category}
                   type={card.type}
+                  img={`/public/images/${card.img}`}
                 />
               ))}
             </div>
