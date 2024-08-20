@@ -1,0 +1,83 @@
+.hero {
+  height: calc(100vh - var(--layout-header-size));
+  background-image: url('../../../shared/assets/img/main_slide01_en.jpg');
+  background-repeat: no-repeat;
+  background-position: -500px;
+  background-size: cover;
+  background-color: aqua;
+}
+
+.hero-background-wrapper {
+  height: 100%;
+  background-color: rgba(var(--color-white), 0.4);
+  position: relative;
+}
+
+.hero-text-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: auto;
+  top: calc(50vh - var(--layout-header-size));
+  transform: translate(0, -50%);
+}
+
+.hero__title {
+  margin: 0;
+  font-size: 50px;
+}
+
+.hero__description {
+  margin: 0;
+  font-size: 20px;
+}
+
+.hero__scroll {
+  --size: 30px;
+  width: calc(var(--size) * 2);
+  height: var(--size);
+  padding: 11px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(0%, 0);
+}
+
+.hero-scroll__left {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: block;
+  background-color: rgb(var(--color-white));
+  width: var(--size);
+  height: calc(var(--size) / 4);
+  transform: translate(5%, -50%);
+  border-radius: 10px 0 0 10px;
+  transform-origin: right;
+  transition: var(--transition);
+}
+
+.hero-scroll__right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  background-color: rgb(var(--color-white));
+  width: var(--size);
+  height: calc(var(--size) / 4);
+  transform: translate(-5%, -50%);
+  border-radius: 0 10px 10px 0;
+  transform-origin: left;
+  transition: var(--transition);
+}
+
+.hero__scroll:hover .hero-scroll__left {
+  transform: translate(10%, -50%) translate(0%, 100%) rotate(20deg);
+  border-radius: 10px;
+}
+
+.hero__scroll:hover .hero-scroll__right {
+  transform: translate(-10%, -50%) translate(0%, 100%) rotate(-20deg);
+  border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+{
+  "title": "HUBISLAB",
+  "header": {
+    "description": "Офіційний представник Hubislab",
+    "social": "social"
+  },
+  "homePage": {
+    "main": {
+      "hero": {
+        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex voluptatem, iste cupiditate commodi eius aut tempora mollitia quiaitaque? Eum dolorem voluptatem voluptate modi! Fugiat provident fuga autem unde!"
+      },
+      "products": {
+        "title": "HUBISLAB Product Line"
+      }
+    }
+  },
+  "productCard": {
+    "card1": {
+      "title": "Minecel Line",
+      "category": "minecel",
+      "type": "professional"
+    },
+    "card2": {
+      "title": "Pure Balance Line",
+      "category": "cleansing",
+      "type": "professional"
+    },
+    "car3": {
+      "title": "Post Rays Line",
+      "category": "regeneration",
+      "type": "professional"
+    },
+    "card4": {
+      "title": "Minecel Line",
+      "category": "minecel",
+      "type": "professional"
+    }
+  }
+}
