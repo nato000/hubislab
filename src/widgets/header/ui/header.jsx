@@ -4,6 +4,7 @@ import InstagramIcon from '../../../shared/assets/icons/instagram.svg' // Import
 import YoutubeIcon from '../../../shared/assets/icons/youtube.svg' // Import SVG directly
 import LinkedInIcon from '../../../shared/assets/icons/linkedin.svg'
 import { header } from '../../../text/ua-text.json'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
@@ -11,10 +12,10 @@ export const Header = () => {
       <header className="header">
         <div className="container">
           <div className="header-wrapper">
-            <a href="#" className="header__logo">
+            <Link to="/" className="header__logo">
               <img src="../../../shared/assets/icons/facebook.svg" alt="Logo" />
               logo
-            </a>
+            </Link>
             <span className="header__description">{header.description}</span>
             <ul className="header__socials">
               <li className="header-socials__item">

@@ -1,9 +1,9 @@
 import { Header } from '../../../widgets/header'
 import { homePage } from '../../../text/ua-text.json'
 import './homePage.css'
-import ProductCard from '../../../widgets/productCard/ui/productCard'
-import { productCard } from '../../../text/ua-text.json'
+import { productsLine } from '../../../text/ua-text.json'
 import { Footer } from '../../../widgets/footer'
+import ProductLineCard from '../../../widgets/productLineCard/ui/productLineCard'
 
 export const HomePage = () => {
   return (
@@ -28,18 +28,20 @@ export const HomePage = () => {
         </section>
         <section id="products" className="products">
           <div className="container">
-            <a href="products"></a>
             <h3 className="products__title">{homePage.main.products.title}</h3>
             <div className="products__grid">
-              {Object.values(productCard).map((card, index) => (
-                <ProductCard
-                  key={index}
-                  title={card.title}
-                  category={card.category}
-                  type={card.type}
-                  img={`/images/${card.img}`}
-                />
-              ))}
+              {Object.entries(productsLine).map(
+                ([productId, product], index) => (
+                  <ProductLineCard
+                    key={index}
+                    title={product.title}
+                    category={product.category}
+                    type={product.type}
+                    img={`/images/productLines/cardImg/${product.cardImg}`}
+                    productId={productId}
+                  />
+                )
+              )}
             </div>
           </div>
         </section>

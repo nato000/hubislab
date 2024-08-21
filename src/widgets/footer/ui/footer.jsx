@@ -4,6 +4,7 @@ import InstagramIcon from '../../../shared/assets/icons/instagram.svg' // Import
 import YoutubeIcon from '../../../shared/assets/icons/youtube.svg' // Import SVG directly
 import LinkedInIcon from '../../../shared/assets/icons/linkedin.svg'
 import { footer } from '../../../text/ua-text.json'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -11,9 +12,9 @@ export const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-wrapper">
-            <a href="#" className="footer__logo">
+            <Link to="/" className="footer__logo">
               <img src="" alt="LOGO" />
-            </a>
+            </Link>
             <div className="footer__socials">
               <span className="footer-socials__title">
                 {footer.social.title}

@@ -15,66 +15,128 @@
       }
     }
   },
-  "productCard": {
-    "card1": {
+  "productsLine": {
+    "productLine1": {
       "title": "Minecel Line",
       "category": "minecel",
       "type": "professional",
-      "img": "minecel.png"
+      "features": "It contains a large amount of Minexin, a new substance extracted from natural minerals, which improves the natural skin regeneration ability of humans, and by adding efficacy ingredients according to various functions, it can be injected through Minecel Jet, a non-invasive ampoule penetration device, to maximize efficacy by allowing good ingredients to be delivered deep into the skin.",
+      "cardImg": "minecel.png",
+      "bannerImg": "minecel_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Minecel Booster Solution AL",
+          "cardImg": "minecelAL.jpg"
+        },
+        "product2": {
+          "title": "Minecel Booster Solution RM",
+          "cardImg": "minecelRM.jpg"
+        },
+        "product3": {
+          "title": "Minecel Booster Solution AC",
+          "cardImg": "minecelAC.jpg"
+        },
+        "product4": {
+          "title": "Minecel Booster Solution AB",
+          "cardImg": "minecelAB.jpg"
+        }
+      }
     },
-    "card2": {
+    "productLine2": {
       "title": "Pure Balance Line",
       "category": "cleansing",
       "type": "professional",
-      "img": "cleansing.png"
+      "cardImg": "cleansing.png",
+      "products": {
+        "product1": {
+          "title": "Minecel Booster Solution AL",
+          "cardImg": "minecelAL.jpg"
+        },
+        "product2": {
+          "title": "Minecel Booster Solution RM",
+          "cardImg": "minecelRM.jpg"
+        },
+        "product3": {
+          "title": "Minecel Booster Solution AC",
+          "cardImg": "minecelAC.jpg"
+        },
+        "product4": {
+          "title": "Minecel Booster Solution AB",
+          "cardImg": "minecelAB.jpg"
+        }
+      }
     },
-    "card3": {
+    "productLine3": {
       "title": "Post Rays Line",
       "category": "regeneration",
       "type": "professional",
-      "img": "regeneration.png"
+      "cardImg": "regeneration.png"
     },
-    "card4": {
-      "title": "Minecel Line",
-      "category": "minecel",
-      "type": "professional",
-      "img": "regeneration.png"
-    },
-    "card5": {
-      "title": "Pure Balance Line",
-      "category": "cleansing",
+    "productLine4": {
+      "title": "Moisture Max Line",
+      "category": "moisturizing",
       "type": "",
-      "img": "cleansing.png"
+      "cardImg": "regeneration.png"
     },
-    "card6": {
-      "title": "Post Rays Line",
-      "category": "regeneration",
-      "type": "professional",
-      "img": "regeneration.png"
-    },
-    "card7": {
-      "title": "Minecel Line",
-      "category": "minecel",
+    "productLine5": {
+      "title": "A.C Cleaning Line",
+      "category": "sensetive skin & acne care",
       "type": "",
-      "img": "regeneration.png"
+      "cardImg": "cleansing.png"
     },
-    "card8": {
-      "title": "Pure Balance Line",
-      "category": "cleansing",
+    "productLine6": {
+      "title": "Derma Max Line",
+      "category": "whitening",
       "type": "professional",
-      "img": "cleansing.png"
+      "cardImg": "regeneration.png"
     },
-    "card9": {
-      "title": "Post Rays Line",
-      "category": "regeneration",
+    "productLine7": {
+      "title": "Premium Active Line",
+      "category": "anti-aging",
       "type": "professional",
-      "img": "regeneration.png"
+      "cardImg": "regeneration.png"
     },
-    "card10": {
-      "title": "Minecel Line",
-      "category": "minecel",
+    "productLine8": {
+      "title": "Ampoule Lines",
+      "category": "concentrated serum",
+      "type": "",
+      "cardImg": "cleansing.png"
+    },
+    "productLine9": {
+      "title": "Bio Cell Fluid Line",
+      "category": "active ampoule",
       "type": "professional",
-      "img": "regeneration.png"
+      "cardImg": "regeneration.png"
+    },
+    "productLine10": {
+      "title": "R20 intense Line",
+      "category": "skin rejuvenation",
+      "type": "professional",
+      "cardImg": "regeneration.png"
+    },
+    "productLine11": {
+      "title": "Dr. Lacto Peel Line",
+      "category": "chemical peeling",
+      "type": "professional",
+      "cardImg": "regeneration.png"
+    },
+    "productLine12": {
+      "title": "Protect Line",
+      "category": "sunsunscreen & B.B",
+      "type": "",
+      "cardImg": "regeneration.png"
+    },
+    "productLine13": {
+      "title": "e+ Epiderma Mask Line",
+      "category": "sheet mask & modeling mask",
+      "type": "professional",
+      "cardImg": "regeneration.png"
+    },
+    "productLine14": {
+      "title": "Appliances",
+      "category": "beuty appliance",
+      "type": "professional",
+      "cardImg": "regeneration.png"
     }
   },
   "footer": {
