@@ -12,7 +12,11 @@ export const ProductCard = (props) => {
           <div className="product-type__title">{title}</div>
         </div>
         <span className="product-card__category">{category}</span>
-        <span className="product-card__type">{type}</span>
+        {type.length === 0 ? (
+          <></>
+        ) : (
+          <span className="product-card__type">{type}</span>
+        )}
       </div>
     </>
   )

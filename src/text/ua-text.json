@@ -28,7 +28,7 @@
       "type": "professional",
       "img": "cleansing.png"
     },
-    "car3": {
+    "card3": {
       "title": "Post Rays Line",
       "category": "regeneration",
       "type": "professional",
@@ -39,6 +39,47 @@
       "category": "minecel",
       "type": "professional",
       "img": "regeneration.png"
+    },
+    "card5": {
+      "title": "Pure Balance Line",
+      "category": "cleansing",
+      "type": "",
+      "img": "cleansing.png"
+    },
+    "card6": {
+      "title": "Post Rays Line",
+      "category": "regeneration",
+      "type": "professional",
+      "img": "regeneration.png"
+    },
+    "card7": {
+      "title": "Minecel Line",
+      "category": "minecel",
+      "type": "",
+      "img": "regeneration.png"
+    },
+    "card8": {
+      "title": "Pure Balance Line",
+      "category": "cleansing",
+      "type": "professional",
+      "img": "cleansing.png"
+    },
+    "card9": {
+      "title": "Post Rays Line",
+      "category": "regeneration",
+      "type": "professional",
+      "img": "regeneration.png"
+    },
+    "card10": {
+      "title": "Minecel Line",
+      "category": "minecel",
+      "type": "professional",
+      "img": "regeneration.png"
+    }
+  },
+  "footer": {
+    "social": {
+      "title": "social"
     }
   }
 }

@@ -8,3 +8,24 @@
   --layout-header-size: 45px;
   --transition: 0.2s ease-in-out;
 }
+
+/* Large devices (desktops) */
+@media (min-width: 1200px) {
+  :root {
+    --layout-header-size: 45px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  :root {
+    --layout-header-size: 45px;
+  }
+}
+
+/* Small devices (mobile phones) */
+@media (max-width: 767px) {
+  :root {
+    --layout-header-size: 100px;
+  }
+}
