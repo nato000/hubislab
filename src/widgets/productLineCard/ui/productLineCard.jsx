@@ -9,7 +9,10 @@ export const ProductLineCard = (props) => {
       <div className="product-card">
         <img src={`${img}`} alt="" className="product-card__image" />
         {/* <img src={`${image}/${img}`} alt="" className="product-card__image" /> */}
-        <Link to={`/product/${productId}`} className="product-card-wrapper">
+        <Link
+          to={`/hubislab/product/${productId}`}
+          className="product-card-wrapper"
+        >
           <div className="product-type__title">{title}</div>
         </Link>
         <span className="product-card__category">{category}</span>

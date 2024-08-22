@@ -12,7 +12,7 @@ export const Header = () => {
       <header className="header">
         <div className="container">
           <div className="header-wrapper">
-            <Link to="/" className="header__logo">
+            <Link to="/hubislab" className="header__logo">
               <img src="../../../shared/assets/icons/facebook.svg" alt="Logo" />
               logo
             </Link>

@@ -31,16 +31,19 @@ export const HomePage = () => {
             <h3 className="products__title">{homePage.main.products.title}</h3>
             <div className="products__grid">
               {Object.entries(productsLine).map(
-                ([productId, product], index) => (
-                  <ProductLineCard
-                    key={index}
-                    title={product.title}
-                    category={product.category}
-                    type={product.type}
-                    img={`/images/productLines/cardImg/${product.cardImg}`}
-                    productId={productId}
-                  />
-                )
+                ([productId, product], index) => {
+                  console.log(product)
+                  return (
+                    <ProductLineCard
+                      key={index}
+                      title={product.title}
+                      category={product.category}
+                      type={product.type}
+                      img={`/hubislab/images/productLines/cardImg/${product.cardImg}`}
+                      productId={productId}
+                    />
+                  )
+                }
               )}
             </div>
           </div>

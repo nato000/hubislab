@@ -12,7 +12,7 @@ export const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-wrapper">
-            <Link to="/" className="footer__logo">
+            <Link to="/hubislab" className="footer__logo">
               <img src="" alt="LOGO" />
             </Link>
             <div className="footer__socials">
