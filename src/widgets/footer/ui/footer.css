@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(var(--color-black));
+  background-color: rgba(var(--color-black), 1);
 }
 
 .footer-wrapper {
@@ -10,6 +10,7 @@
 }
 
 .footer__logo {
+  background-color: rgb(var(--color-white));
 }
 
 .footer__socials {

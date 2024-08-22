@@ -6,7 +6,7 @@ export const ProductLineCard = (props) => {
   const { title, category, type, img, productId } = props
   return (
     <>
-      <div className="product-card">
+      <article className="product-card">
         <img src={`${img}`} alt="" className="product-card__image" />
         {/* <img src={`${image}/${img}`} alt="" className="product-card__image" /> */}
         <Link
@@ -21,7 +21,7 @@ export const ProductLineCard = (props) => {
         ) : (
           <span className="product-card__type">{type}</span>
         )}
-      </div>
+      </article>
     </>
   )
 }

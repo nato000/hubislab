@@ -5,27 +5,37 @@
   --color-primary: 167, 146, 119;
   --color-secondary: 234, 216, 192;
 
-  --layout-header-size: 45px;
-  --transition: 0.2s ease-in-out;
-}
+  --logo-size: 100px;
+  --logo-max-height: 35px;
 
-/* Large devices (desktops) */
-@media (min-width: 1200px) {
-  :root {
-    --layout-header-size: 45px;
-  }
+  --layout-header-font-size: 18px;
+  --layout-header-padding: 10px;
+
+  --layout-header-size: calc(
+    var(--logo-max-height) + (var(--layout-header-padding) * 2)
+  );
+
+  --card-badge-font-size: 18px;
+  --card-badge-padding-y: 5px;
+  --card-badge-padding-x: 10px;
+
+  --transition: 0.2s ease-in-out;
 }
 
 /* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 1199px) {
   :root {
-    --layout-header-size: 45px;
   }
 }
 
 /* Small devices (mobile phones) */
 @media (max-width: 767px) {
   :root {
-    --layout-header-size: 100px;
+    --layout-header-padding: 12px;
+
+    --layout-header-size: calc(
+      var(--logo-max-height) + (var(--layout-header-padding) * 3) +
+        var(--layout-header-font-size)
+    );
   }
 }

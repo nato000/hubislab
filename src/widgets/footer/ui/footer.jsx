@@ -13,7 +13,11 @@ export const Footer = () => {
         <div className="container">
           <div className="footer-wrapper">
             <Link to="/hubislab" className="footer__logo">
-              <img src="" alt="LOGO" />
+              <img
+                className="header-logo__image"
+                src="/hubislab/images/logo2.png"
+                alt="Logo"
+              />
             </Link>
             <div className="footer__socials">
               <span className="footer-socials__title">
