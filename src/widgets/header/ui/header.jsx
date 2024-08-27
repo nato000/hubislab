@@ -15,7 +15,16 @@ export const Header = () => {
                 alt="Logo"
               />
             </Link>
-            <span className="header__description">{header.description}</span>
+            <span className="header__description">
+              {header.description.part1}
+              <span className="header-description__hubis">
+                {header.description.part2}
+              </span>
+              <span className="header-description__lab">
+                {header.description.part3}
+              </span>
+              {header.description.part4}
+            </span>
           </div>
         </div>
       </header>

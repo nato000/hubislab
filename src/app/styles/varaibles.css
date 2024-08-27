@@ -5,8 +5,8 @@
   --color-primary: 167, 146, 119;
   --color-secondary: 234, 216, 192;
 
-  --logo-size: 100px;
-  --logo-max-height: 35px;
+  --logo-size: 150px;
+  --logo-max-height: 50px;
 
   --layout-header-font-size: 18px;
   --layout-header-padding: 10px;
@@ -31,6 +31,8 @@
 /* Small devices (mobile phones) */
 @media (max-width: 767px) {
   :root {
+    --logo-max-height: 40px;
+
     --layout-header-padding: 12px;
 
     --layout-header-size: calc(

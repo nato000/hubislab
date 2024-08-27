@@ -69,14 +69,16 @@
   transform: translate(0%, -50%);
   border-radius: 10px 0 0 10px;
   transform-origin: right;
-  transition: var(--transition);
+  /* transition: var(--transition); */
+  transition: 0.5s ease-in-out;
 }
 
 .arrow__right {
   transform: translate(100%, -50%);
   border-radius: 0 10px 10px 0;
   transform-origin: left;
-  transition: var(--transition);
+  /* transition: var(--transition); */
+  transition: 0.5s ease-in-out;
 }
 
 .arrow-up.arrow__left {

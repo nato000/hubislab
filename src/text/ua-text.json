@@ -1,7 +1,12 @@
 {
   "title": "HUBISLAB",
   "header": {
-    "description": "Офіційний представник Hubislab",
+    "description": {
+      "part1": "Офіційний дистриб'ютор ",
+      "part2": "Hubis",
+      "part3": "Lab",
+      "part4": " в Україні"
+    },
     "social": "social"
   },
   "homePage": {

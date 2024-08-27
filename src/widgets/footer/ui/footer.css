@@ -11,6 +11,8 @@
 
 .footer__logo {
   background-color: rgb(var(--color-white));
+  display: inline-block;
+  line-height: 0;
 }
 
 .footer__socials {
