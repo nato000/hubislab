@@ -21,13 +21,15 @@ export const Footer = () => {
             </Link>
             <div className="footer__contacts">
               <span className="footer-contacts__text">
-                <h5 className="footer-contacts__header">{footer.info.title}</h5>
+                <span className="footer-contacts__header">
+                  {footer.info.title}
+                </span>
                 {footer.info.description}
               </span>
               <span className="footer-contacts__text">
-                <h5 className="footer-contacts__header">
+                <span className="footer-contacts__header">
                   {footer.adress.title}
-                </h5>
+                </span>
                 {footer.adress.description}
               </span>
             </div>
