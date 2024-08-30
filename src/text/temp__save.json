@@ -1,28 +1,32 @@
 {
-  "title": "HUBISLAB",
-  "header": {
-    "description": {
-      "part1": "Офіційний дистриб'ютор ",
-      "part2": "Hubis",
-      "part3": "Lab",
-      "part4": " в Україні"
-    },
-    "catalog": "Каталог",
-    "social": "social"
-  },
-  "homePage": {
-    "main": {
-      "hero": {
-        "title": "HUBISLAB — космецевтичний бренд, який поєднує наукові дослідження та інновації для створення високоефективної косметики.",
-        "description": "Основна мета бренду — вирішення специфічних проблем шкіри, таких як старіння, пігментація та зневоднення, через використання передових інгредієнтів і технологій. Сильні сторони HUBISLAB включають орієнтацію на науково обґрунтовані рішення, індивідуальний підхід до потреб шкіри та використання безпечних, ефективних компонентів, що робить продукцію підходящою для професійного та домашнього догляду."
-      },
-      "products": {
-        "title": "HUBISLAB Product Line"
-      }
-    }
-  },
   "productsLine": {
     "productLine1": {
+      "title": "Minecel Line",
+      "category": "minecel",
+      "type": "professional",
+      "features": "It contains a large amount of Minexin, a new substance extracted from natural minerals, which improves the natural skin regeneration ability of humans, and by adding efficacy ingredients according to various functions, it can be injected through Minecel Jet, a non-invasive ampoule penetration device, to maximize efficacy by allowing good ingredients to be delivered deep into the skin.",
+      "cardImg": "minecel.png",
+      "bannerImg": "minecel_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Minecel Booster Solution AL",
+          "cardImg": "Minecel_Booster_Solution_AL.jpg"
+        },
+        "product2": {
+          "title": "Minecel Booster Solution RM",
+          "cardImg": "Minecel_Booster_Solution_RM.jpg"
+        },
+        "product3": {
+          "title": "Minecel Booster Solution AC",
+          "cardImg": "Minecel_Booster_Solution_AC.jpg"
+        },
+        "product4": {
+          "title": "Minecel Booster Solution AB",
+          "cardImg": "Minecel_Booster_Solution_AB.jpg"
+        }
+      }
+    },
+    "productLine2": {
       "title": "Pure Balance Line",
       "category": "cleansing",
       "type": "professional",
@@ -45,32 +49,6 @@
         "product4": {
           "title": "Refreshing Cleansing Gel",
           "cardImg": "Refreshing_Cleansing_Gel.jpg"
-        }
-      }
-    },
-    "productLine2": {
-      "title": "Moisture Max Line",
-      "category": "moisturizing",
-      "type": "",
-      "features": "Moisture Max Line provides long-lasting hydration and revitalization to the skin through the 3 steps moisturizing system (hydrating, nourishing, protecting) by supplying not only moisture, but also nourishment and protection to dry, rough skin. ",
-      "cardImg": "Moisture_Max_Line.png",
-      "bannerImg": "Moisture_Max_Line_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "Moisture Max Cleansing Foam",
-          "cardImg": "Moisture_Max_Cleansing_Foam.jpg"
-        },
-        "product2": {
-          "title": "Moisture Max Aqua Mist",
-          "cardImg": "Moisture_Max_Aqua_Mist.jpg"
-        },
-        "product3": {
-          "title": "Moisture Max Hydro Moisturizer",
-          "cardImg": "Moisture_Max_Hydro_Moisturizer.jpg"
-        },
-        "product4": {
-          "title": "Moisture Max Hydro Cream",
-          "cardImg": "Moisture_Max_Hydro_Cream.jpg"
         }
       }
     },
@@ -105,50 +83,32 @@
       }
     },
     "productLine4": {
-      "title": "Derma Max Line",
-      "category": "whitening",
-      "type": "professional",
-      "features": "Derma Max Line applies the 3 steps brightening system (prevention brightening, pigmentation brightening, regeneration brightening) to revive dull skin, provide cleanliness and brightness to the skin. ",
-      "cardImg": "Derma_Max_Line.png",
-      "bannerImg": "Derma_Max_Line_banner.jpg",
+      "title": "Moisture Max Line",
+      "category": "moisturizing",
+      "type": "",
+      "features": "Moisture Max Line provides long-lasting hydration and revitalization to the skin through the 3 steps moisturizing system (hydrating, nourishing, protecting) by supplying not only moisture, but also nourishment and protection to dry, rough skin. ",
+      "cardImg": "Moisture_Max_Line.png",
+      "bannerImg": "Moisture_Max_Line_banner.jpg",
       "products": {
         "product1": {
-          "title": "Derma Max Brilliance Serum",
-          "cardImg": "Derma_Max_Brilliance_Serum.jpg"
+          "title": "Moisture Max Cleansing Foam",
+          "cardImg": "Moisture_Max_Cleansing_Foam.jpg"
         },
         "product2": {
-          "title": "Derma Max Brilliance Cream",
-          "cardImg": "Derma_Max_Brilliance_Cream.jpg"
+          "title": "Moisture Max Aqua Mist",
+          "cardImg": "Moisture_Max_Aqua_Mist.jpg"
         },
         "product3": {
-          "title": "Derma Max Brightening Clinic",
-          "cardImg": "Derma_Max_Brightening_Clinic.jpg"
+          "title": "Moisture Max Hydro Moisturizer",
+          "cardImg": "Moisture_Max_Hydro_Moisturizer.jpg"
+        },
+        "product4": {
+          "title": "Moisture Max Hydro Cream",
+          "cardImg": "Moisture_Max_Hydro_Cream.jpg"
         }
       }
     },
     "productLine5": {
-      "title": "Premium Active Line",
-      "category": "anti-aging",
-      "type": "professional",
-      "features": "Premium Active Line improves skin that loses elasticity due to stress and external environment by supplying tightening effects and rich nourishment to help to achieve firm skin. ",
-      "cardImg": "Premium_Active_Line.png",
-      "bannerImg": "Premium_Active_Line_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "Premium Active Revival Essence",
-          "cardImg": "Premium_Active_Revival_Essence.jpg"
-        },
-        "product2": {
-          "title": "Premium Active B-tol Ampoule",
-          "cardImg": "Premium_Active_B-tol_Ampoule.jpg"
-        },
-        "product3": {
-          "title": "Premium Active Eternal Eye & Face Cream",
-          "cardImg": "Premium_Active_Eternal_Eye_&_Face_Cream.jpg"
-        }
-      }
-    },
-    "productLine6": {
       "title": "A.C Cleaning Line",
       "category": "sensetive skin & acne care",
       "type": "",
@@ -178,7 +138,51 @@
         }
       }
     },
+    "productLine6": {
+      "title": "Derma Max Line",
+      "category": "whitening",
+      "type": "professional",
+      "features": "Derma Max Line applies the 3 steps brightening system (prevention brightening, pigmentation brightening, regeneration brightening) to revive dull skin, provide cleanliness and brightness to the skin. ",
+      "cardImg": "Derma_Max_Line.png",
+      "bannerImg": "Derma_Max_Line_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Derma Max Brilliance Serum",
+          "cardImg": "Derma_Max_Brilliance_Serum.jpg"
+        },
+        "product2": {
+          "title": "Derma Max Brilliance Cream",
+          "cardImg": "Derma_Max_Brilliance_Cream.jpg"
+        },
+        "product3": {
+          "title": "Derma Max Brightening Clinic",
+          "cardImg": "Derma_Max_Brightening_Clinic.jpg"
+        }
+      }
+    },
     "productLine7": {
+      "title": "Premium Active Line",
+      "category": "anti-aging",
+      "type": "professional",
+      "features": "Premium Active Line improves skin that loses elasticity due to stress and external environment by supplying tightening effects and rich nourishment to help to achieve firm skin. ",
+      "cardImg": "Premium_Active_Line.png",
+      "bannerImg": "Premium_Active_Line_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Premium Active Revival Essence",
+          "cardImg": "Premium_Active_Revival_Essence.jpg"
+        },
+        "product2": {
+          "title": "Premium Active B-tol Ampoule",
+          "cardImg": "Premium_Active_B-tol_Ampoule.jpg"
+        },
+        "product3": {
+          "title": "Premium Active Eternal Eye & Face Cream",
+          "cardImg": "Premium_Active_Eternal_Eye_&_Face_Cream.jpg"
+        }
+      }
+    },
+    "productLine8": {
       "title": "Ampoule Lines",
       "category": "concentrated serum",
       "type": "",
@@ -204,61 +208,7 @@
         }
       }
     },
-    "productLine8": {
-      "title": "Dr. Lacto Peel Line",
-      "category": "chemical peeling",
-      "type": "professional",
-      "features": "Dr. Lacto Peel Line is a chemical peeling line up designed to remove dead skin cells, clean pores, and help skin regeneration. Lactococcus ferment lysate which is a core ingredient of the Dr. Lacto Peel products helps to restore skin barrier function, regenerate skin, and gives deep moisture to the skin. ",
-      "cardImg": "Lacto_Peel_Line.png",
-      "bannerImg": "Lacto_Peel_Line_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "Dr. Lacto Peel Alpha",
-          "cardImg": "Dr._Lacto_Peel_Alpha.jpg"
-        },
-        "product2": {
-          "title": "Dr. Lacto Peel Beta",
-          "cardImg": "Dr._Lacto_Peel_Beta.jpg"
-        },
-        "product3": {
-          "title": "Dr. Lacto Peel pH Neutralizer",
-          "cardImg": "Dr._Lacto_Peel_pH_Neutralizer.jpg"
-        }
-      }
-    },
     "productLine9": {
-      "title": "Protect Line",
-      "category": "sunsunscreen & B.B",
-      "type": "",
-      "features": "Protect Line is an extension of the Post Rays line-up which is designed to be used on skin that has undergone professional skin care treatment. It safeguards the skin against UV damage and provides a natural barrier against moisture loss to soothe and restore the skin from inside out. ",
-      "cardImg": "Protect_Line.png",
-      "bannerImg": "Protect_Line_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "Post Rays Derma Perfect Sunscreen",
-          "cardImg": "Post_Rays_Derma_Perfect_Sunscreen.jpg"
-        },
-        "product2": {
-          "title": "Herb 8 Soothing Blemish Balm",
-          "cardImg": "Herb_8_Soothing_Blemish_Balm.jpg"
-        }
-      }
-    },
-    "productLine10": {
-      "title": "R20 intense Line",
-      "category": "skin rejuvenation",
-      "type": "professional",
-      "features": "R20 Intense Line is a concentrated ampoule that rejuvenates the skin for youthful vitality. This powerful ampoule works immediately to improve skin activity. With carefully selected premium ingredients, this product provides skin regeneration, soothing and moisturizing effects to restore the skin active system. Helps to heal & rejuvenate damaged skin. Promotes new skin cell growth, reducing the visibility of fine lines. Potent brightening and moisturizing properties. ",
-      "cardImg": "R20_intense_Line.png",
-      "bannerImg": "R20_intense_Line_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "R20 Intense Bird's Nest & Sodium DNA",
-          "cardImg": "R20_Intense_Bird's_Nest_&_Sodium_DNA.jpg"
-        }
-      }
-    },
-    "productLine11": {
       "title": "Bio Cell Fluid Line",
       "category": "active ampoule",
       "type": "professional",
@@ -284,7 +234,61 @@
         }
       }
     },
+    "productLine10": {
+      "title": "R20 intense Line",
+      "category": "skin rejuvenation",
+      "type": "professional",
+      "features": "R20 Intense Line is a concentrated ampoule that rejuvenates the skin for youthful vitality. This powerful ampoule works immediately to improve skin activity. With carefully selected premium ingredients, this product provides skin regeneration, soothing and moisturizing effects to restore the skin active system. Helps to heal & rejuvenate damaged skin. Promotes new skin cell growth, reducing the visibility of fine lines. Potent brightening and moisturizing properties. ",
+      "cardImg": "R20_intense_Line.png",
+      "bannerImg": "R20_intense_Line_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "R20 Intense Bird's Nest & Sodium DNA",
+          "cardImg": "R20_Intense_Bird's_Nest_&_Sodium_DNA.jpg"
+        }
+      }
+    },
+    "productLine11": {
+      "title": "Dr. Lacto Peel Line",
+      "category": "chemical peeling",
+      "type": "professional",
+      "features": "Dr. Lacto Peel Line is a chemical peeling line up designed to remove dead skin cells, clean pores, and help skin regeneration. Lactococcus ferment lysate which is a core ingredient of the Dr. Lacto Peel products helps to restore skin barrier function, regenerate skin, and gives deep moisture to the skin. ",
+      "cardImg": "Lacto_Peel_Line.png",
+      "bannerImg": "Lacto_Peel_Line_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Dr. Lacto Peel Alpha",
+          "cardImg": "Dr._Lacto_Peel_Alpha.jpg"
+        },
+        "product2": {
+          "title": "Dr. Lacto Peel Beta",
+          "cardImg": "Dr._Lacto_Peel_Beta.jpg"
+        },
+        "product3": {
+          "title": "Dr. Lacto Peel pH Neutralizer",
+          "cardImg": "Dr._Lacto_Peel_pH_Neutralizer.jpg"
+        }
+      }
+    },
     "productLine12": {
+      "title": "Protect Line",
+      "category": "sunsunscreen & B.B",
+      "type": "",
+      "features": "Protect Line is an extension of the Post Rays line-up which is designed to be used on skin that has undergone professional skin care treatment. It safeguards the skin against UV damage and provides a natural barrier against moisture loss to soothe and restore the skin from inside out. ",
+      "cardImg": "Protect_Line.png",
+      "bannerImg": "Protect_Line_banner.jpg",
+      "products": {
+        "product1": {
+          "title": "Post Rays Derma Perfect Sunscreen",
+          "cardImg": "Post_Rays_Derma_Perfect_Sunscreen.jpg"
+        },
+        "product2": {
+          "title": "Herb 8 Soothing Blemish Balm",
+          "cardImg": "Herb_8_Soothing_Blemish_Balm.jpg"
+        }
+      }
+    },
+    "productLine13": {
       "title": "e+ Epiderma Mask Line",
       "category": "sheet mask & modeling mask",
       "type": "professional",
@@ -326,32 +330,6 @@
         }
       }
     },
-    "productLine13": {
-      "title": "Minecel Line",
-      "category": "minecel",
-      "type": "professional",
-      "features": "It contains a large amount of Minexin, a new substance extracted from natural minerals, which improves the natural skin regeneration ability of humans, and by adding efficacy ingredients according to various functions, it can be injected through Minecel Jet, a non-invasive ampoule penetration device, to maximize efficacy by allowing good ingredients to be delivered deep into the skin.",
-      "cardImg": "minecel.png",
-      "bannerImg": "minecel_banner.jpg",
-      "products": {
-        "product1": {
-          "title": "Minecel Booster Solution AL",
-          "cardImg": "Minecel_Booster_Solution_AL.jpg"
-        },
-        "product2": {
-          "title": "Minecel Booster Solution RM",
-          "cardImg": "Minecel_Booster_Solution_RM.jpg"
-        },
-        "product3": {
-          "title": "Minecel Booster Solution AC",
-          "cardImg": "Minecel_Booster_Solution_AC.jpg"
-        },
-        "product4": {
-          "title": "Minecel Booster Solution AB",
-          "cardImg": "Minecel_Booster_Solution_AB.jpg"
-        }
-      }
-    },
     "productLine14": {
       "title": "Appliances",
       "category": "beuty appliance",
@@ -373,20 +351,6 @@
           "cardImg": "3_TIP.jpg"
         }
       }
-    }
-  },
-  "footer": {
-    "info": {
-      "title": "Офіційний дистрибьютор в Україні: ",
-      "description": " ТОВ 'Б'юті Альянс'"
-    },
-    "adress": {
-      "title": "Адреса: ",
-      "description": " провулок Болсуновський 3/2 А індекс 01014"
-    },
-    "social": {
-      "title": "Kонтакти: ",
-      "phone": "+380-93-995-99-98"
     }
   }
 }

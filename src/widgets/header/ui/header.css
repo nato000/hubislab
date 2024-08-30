@@ -24,8 +24,8 @@
 }
 
 .header__description {
-  font-size: 18px;
-  line-height: 18px;
+  font-size: var(--layout-header-font-size);
+  line-height: var(--layout-header-font-size);
   font-weight: 700;
   color: rgb(var(--color-black));
   margin: 0 auto;
@@ -43,7 +43,9 @@
   text-decoration: none;
   color: rgb(var(--color-black));
   position: relative;
-  padding: 5px;
+  padding: calc(var(--layout-header-padding) / 2);
+  font-size: var(--layout-header-font-size);
+  line-height: var(--layout-header-font-size);
 }
 
 .header__catalog::after {
