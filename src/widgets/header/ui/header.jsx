@@ -25,6 +25,9 @@ export const Header = () => {
               </span>
               {header.description.part4}
             </span>
+            <a className="header__catalog" href="/hubislab#products">
+              {header.catalog}
+            </a>
           </div>
         </div>
       </header>

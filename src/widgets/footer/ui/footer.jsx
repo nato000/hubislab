@@ -15,14 +15,32 @@ export const Footer = () => {
             <Link to="/hubislab" className="footer__logo">
               <img
                 className="header-logo__image"
-                src="/hubislab/images/logo2.png"
+                src="/hubislab/images/logo1.png"
                 alt="Logo"
               />
             </Link>
+            <div className="footer__contacts">
+              <span className="footer-contacts__text">
+                <h5 className="footer-contacts__header">{footer.info.title}</h5>
+                {footer.info.description}
+              </span>
+              <span className="footer-contacts__text">
+                <h5 className="footer-contacts__header">
+                  {footer.adress.title}
+                </h5>
+                {footer.adress.description}
+              </span>
+            </div>
             <div className="footer__socials">
               <span className="footer-socials__title">
                 {footer.social.title}
               </span>
+              <a
+                className="footer-contacts__number-link"
+                href="tel:+380939959998"
+              >
+                {footer.social.phone}
+              </a>
               <ul className="footer-socials__list">
                 <li className="footer-socials-list__item">
                   <a href="" className="footer-socials-list-item__link">

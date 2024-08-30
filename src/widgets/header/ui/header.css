@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(var(--color-primary));
+  background-color: rgb(var(--color-white));
   width: 100%;
   height: var(--layout-header-size);
   padding: var(--layout-header-padding) 0;
@@ -27,7 +27,7 @@
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  color: rgb(var(--color-white));
+  color: rgb(var(--color-black));
   margin: 0 auto;
 }
 
@@ -37,6 +37,28 @@
 
 .header-description__lab {
   color: #ed3137;
+}
+
+.header__catalog {
+  text-decoration: none;
+  color: rgb(var(--color-black));
+  position: relative;
+  padding: 5px;
+}
+
+.header__catalog::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(var(--color-black));
+  transition: var(--transition);
+}
+
+.header__catalog:hover.header__catalog::after {
+  width: 100%;
 }
 
 /* Small devices (mobile phones) */
