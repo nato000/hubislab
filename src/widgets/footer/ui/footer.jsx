@@ -45,7 +45,11 @@ export const Footer = () => {
               </a>
               <ul className="footer-socials__list">
                 <li className="footer-socials-list__item">
-                  <a href="" className="footer-socials-list-item__link">
+                  <a
+                    href=""
+                    className="footer-socials-list-item__link"
+                    target="_blank"
+                  >
                     <img
                       src={FacebookIcon}
                       alt="Facebook"
@@ -54,7 +58,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-socials-list__item">
-                  <a href="" className="footer-socials-list-item__link">
+                  <a
+                    href="https://www.instagram.com/hubislab_ukraine?igsh=M2k2Y3p2cm1saW4y&utm_source=qr"
+                    className="footer-socials-list-item__link"
+                    target="_blank"
+                  >
                     <img
                       src={InstagramIcon}
                       alt="Instagram"
@@ -63,7 +71,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-socials-list__item">
-                  <a href="" className="footer-socials-list-item__link">
+                  <a
+                    href=""
+                    className="footer-socials-list-item__link"
+                    target="_blank"
+                  >
                     <img
                       src={YoutubeIcon}
                       alt="Youtube"
@@ -72,7 +84,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-socials-list__item">
-                  <a href="" className="footer-socials-list-item__link">
+                  <a
+                    href=""
+                    className="footer-socials-list-item__link"
+                    target="_blank"
+                  >
                     <img
                       src={LinkedInIcon}
                       alt="LinkedIn"
