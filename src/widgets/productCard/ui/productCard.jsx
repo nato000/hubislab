@@ -9,7 +9,7 @@ export const ProductCard = (props) => {
         <img src={`${img}`} alt={title} className="product-card__image" />
         {/* <img src={`${image}/${img}`} alt="" className="product-card__image" /> */}
         <div className="product-card-wrapper">
-          <div className="product-type__title">{title}</div>
+          <h1 className="product-type__title">{title}</h1>
         </div>
       </div>
     </>

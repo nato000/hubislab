@@ -3,6 +3,7 @@ import { productsLine } from '../../../text/ua-text.json'
 import { ProductLineNav } from '../../productLineNav'
 import { ProductCard } from '../../productCard'
 import './productLineDetails.css'
+
 export const ProductLineDetails = () => {
   const { productId } = useParams() // Capture productId from the URL
   const productLine = productsLine[productId] // Get the product from the products object
