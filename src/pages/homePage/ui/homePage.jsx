@@ -32,15 +32,24 @@ export const HomePage = () => {
             <div className="container">
               <div className="hero-text-wrapper">
                 <h1 className="hero__title">{homePage.main.hero.title}</h1>
-                <p className="hero__description">
+                {/* <p className="hero__description">
                   {homePage.main.hero.description}
-                </p>
+                </p> */}
               </div>
               <a href="#products" className="hero__scroll">
                 <div className="hero-scroll__left"></div>
                 <div className="hero-scroll__right"></div>
               </a>
             </div>
+          </div>
+        </section>
+        <section className="description-section">
+          <div className="container">
+            <hr />
+            <p className="description__text">
+              {homePage.main.hero.description}
+            </p>
+            <hr />
           </div>
         </section>
         <section id="products" className="products">

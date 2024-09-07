@@ -6,20 +6,21 @@ export const ProductLineCard = (props) => {
   const { title, category, type, img, productId } = props
   return (
     <>
-      <article className="product-card">
-        <img src={`${img}`} alt="" className="product-card__image" />
-        {/* <img src={`${image}/${img}`} alt="" className="product-card__image" /> */}
+      <article className="product-line-card">
+        <img src={`${img}`} alt="" className="product-line-card__image" />
+        {/* <img src={`${image}/${img}`} alt="" className="product-line-card__image" /> */}
         <Link
           to={`/hubislab/product/${productId}`}
-          className="product-card-wrapper"
+          product-
+          className="product-line-card-wrapper"
         >
-          <div className="product-type__title">{title}</div>
+          <div className="product-line-type__title">{title}</div>
         </Link>
-        <span className="product-card__category">{category}</span>
+        <span className="product-line-card__category">{category}</span>
         {type.length === 0 ? (
           <></>
         ) : (
-          <span className="product-card__type">{type}</span>
+          <span className="product-line-card__type">{type}</span>
         )}
       </article>
     </>
