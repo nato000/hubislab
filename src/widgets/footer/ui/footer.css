@@ -31,11 +31,13 @@
 .footer-contacts__text {
   color: rgb(var(--color-white));
   font-size: 18px;
+  text-wrap: balance;
 }
 
 .footer-contacts__number-link {
   color: white;
   margin: 5px 0;
+  text-decoration: none;
 }
 
 .footer__socials {

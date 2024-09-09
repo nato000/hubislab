@@ -26,7 +26,7 @@
 .header__description {
   font-size: var(--layout-header-font-size);
   line-height: var(--layout-header-font-size);
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(var(--color-black));
   margin: 0 auto;
 }

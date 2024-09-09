@@ -17,7 +17,7 @@
         "description": "Основна мета бренду — вирішення специфічних проблем шкіри, таких як старіння, пігментація та зневоднення, через використання передових інгредієнтів і технологій. Сильні сторони HUBISLAB включають орієнтацію на науково обґрунтовані рішення, індивідуальний підхід до потреб шкіри та використання безпечних, ефективних компонентів, що робить продукцію підходящою для професійного та домашнього догляду."
       },
       "products": {
-        "title": "HUBISLAB Product Line"
+        "title": "HUBISLAB Лінійки засобів"
       }
     }
   },
@@ -26,7 +26,7 @@
       "title": "Pure Balance Line",
       "category": "Очищення",
       "type": "професійно",
-      "features": "Pure Balance Line is designed to revitalize your skin by removing impurities and make-up residue and by balancing the skin’s pH level. Based on advanced bio-fermentation technology, this line both cleans and re-balances your skin. Its expert cleansing formula minimizes skin sensitivity after medical treatment and protects the skin barrier. Composed of beneficial ingredients that penetrate into the skin for the next stage Created from natural, non-artificial extracts in order to eliminate any adverse skin reactions Formula that maintains the skin’s natural barrier, restores damaged skin cells, and cleans dirt and oil away gently, yet thoroughly Before and/or after laser treatment: Weakly acidic (pH 5.5~6.8) cleanser that helps protect the skin barrier while removing dead keratin cells and dirt without skin irritation",
+      "features": "Лінійка Pure Balance призначена для відновлення шкіри шляхом видалення забруднень та залишків макіяжу, а також для балансування рівня pH шкіри. На основі передової технології біоферментації, ця лінія як очищає, так і відновлює баланс шкіри. Експертна формула очищення мінімізує чутливість шкіри після медичних процедур і захищає її бар'єр. Вона складається з корисних інгредієнтів, що проникають в шкіру для подальших етапів догляду. Створена з натуральних, нештучних екстрактів для усунення будь-яких несприятливих реакцій шкіри. Формула підтримує природний бар'єр шкіри, відновлює пошкоджені клітини і ніжно, але ретельно очищує шкіру від бруду та жиру. Перед і/або після лазерного лікування: слабо-кислий (pH 5.5~6.8) очищувач, що допомагає захистити шкірний бар'єр, видаляючи омертвілі клітини кератину та бруд без подразнення шкіри.",
       "cardImg": "cleansing.png",
       "bannerImg": "Pure_Balance_Line_banner.jpg",
       "products": {
@@ -52,7 +52,7 @@
       "title": "Moisture Max Line",
       "category": "Зволоження",
       "type": "",
-      "features": "Moisture Max Line provides long-lasting hydration and revitalization to the skin through the 3 steps moisturizing system (hydrating, nourishing, protecting) by supplying not only moisture, but also nourishment and protection to dry, rough skin. ",
+      "features": "Лінійка Moisture Max забезпечує тривале зволоження та відновлення шкіри завдяки трирівневій зволожуючій системі (зволоження, живлення, захист), надаючи не лише вологу, але й живлення та захист сухій, грубій шкірі.",
       "cardImg": "Moisture_Max_Line.png",
       "bannerImg": "Moisture_Max_Line_banner.jpg",
       "products": {
@@ -78,7 +78,7 @@
       "title": "Post Rays Line",
       "category": "Відновлення",
       "type": "профейсіне",
-      "features": "Post Rays Line reinforces and protects skin that has undergone professional skin care treatment. It is specially formulated to strengthen and safeguard your skin internally before treatment and to soothe and restore it after treatment. Promotes rapid recovery post laser procedures and prevents premature aging, hyperpigmentation, and scarring for healthier and rejuvenated skin Helps skin re-gain optimal moisture retention and repairs the damaged skin barrier, leading to a suppler and healthy-looking skin Helps to repair weakened skin functionality to its original state, thereby reinstating a healthy skin barri ",
+      "features": "Лінійка Post Rays зміцнює та захищає шкіру, що пройшла професійний догляд. Вона спеціально розроблена для того, щоб зміцнити та захистити вашу шкіру внутрішньо до процедури, а також заспокоїти та відновити її після процедури. Сприяє швидкому відновленню після лазерних процедур і запобігає передчасному старінню, гіперпігментації та утворенню рубців, забезпечуючи здорову та омолоджену шкіру. Допомагає шкірі відновити оптимальне утримання вологи та відновлює пошкоджений шкірний бар'єр, що призводить до більш м'якої та здорової на вигляд шкіри. Допомагає відновити ослаблену функцію шкіри до її початкового стану, відновлюючи таким чином здоровий шкірний бар'єр.",
       "cardImg": "regeneration.png",
       "bannerImg": "Post_Rays_Line_banner.jpg",
       "products": {
@@ -108,7 +108,7 @@
       "title": "Derma Max Line",
       "category": "Освітлення",
       "type": "професійне",
-      "features": "Derma Max Line applies the 3 steps brightening system (prevention brightening, pigmentation brightening, regeneration brightening) to revive dull skin, provide cleanliness and brightness to the skin. ",
+      "features": "Лінійка Derma Max використовує трирівневу систему освітлення (профілактичне освітлення, освітлення пігментації, регенераційне освітлення) для відновлення тьмяної шкіри, надаючи їй чистоти та яскравості.",
       "cardImg": "Derma_Max_Line.png",
       "bannerImg": "Derma_Max_Line_banner.jpg",
       "products": {
@@ -130,7 +130,7 @@
       "title": "Premium Active Line",
       "category": "Анти вікова",
       "type": "профейсійне",
-      "features": "Premium Active Line improves skin that loses elasticity due to stress and external environment by supplying tightening effects and rich nourishment to help to achieve firm skin. ",
+      "features": "Лінійка Premium Active покращує стан шкіри, яка втрачає еластичність через стрес та зовнішні фактори, забезпечуючи ефект підтягування та багате живлення, що допомагає досягти пружної шкіри.",
       "cardImg": "Premium_Active_Line.png",
       "bannerImg": "Premium_Active_Line_banner.jpg",
       "products": {
@@ -152,7 +152,7 @@
       "title": "A.C Clearing Line",
       "category": "Акне та чутлива",
       "type": "",
-      "features": "A.C Clearing Line is a gentle cleansing regimen for acne prone skin and is designed to be used after cosmetic skin treatment. Its special formula cleans and clarifies impurities from your skin and tightens it without dryness or irritation. ",
+      "features": "Лінійка A.C Clearing – це делікатний очищувальний засіб для шкіри, схильної до акне, розроблений для використання після косметичних процедур. Його спеціальна формула очищує та усуває забруднення зі шкіри, підтягуючи її без сухості та подразнення.",
       "cardImg": "A.C_Cleaning_Line.png",
       "bannerImg": "A.C_Cleaning_Line_banner.jpg",
       "products": {
@@ -182,7 +182,7 @@
       "title": "Ampoule Lines",
       "category": "Концентрати",
       "type": "",
-      "features": "Ampoule Line is an array of concentrated serums designed to quickly boost moisture and nutrient levels and to increase the skin’s elasticity from deep within. It provides complete hydration, bolsters the skin’s natural defenses, and guards against moisture loss for 12 to 36 hours. ",
+      "features": "Лінійка Ampoule — це набір концентрованих сироваток, розроблених для швидкого підвищення рівня вологи та поживних речовин, а також для збільшення еластичності шкіри зсередини. Вона забезпечує повне зволоження, зміцнює природний захист шкіри та захищає від втрати вологи протягом 12 до 36 годин.",
       "cardImg": "Ampoule_Lines.png",
       "bannerImg": "Ampoule_Lines_banner.jpg",
       "products": {
@@ -208,7 +208,7 @@
       "title": "Dr. Lacto Peel Line",
       "category": "Хімічні пілінги",
       "type": "професійне",
-      "features": "Dr. Lacto Peel Line is a chemical peeling line up designed to remove dead skin cells, clean pores, and help skin regeneration. Lactococcus ferment lysate which is a core ingredient of the Dr. Lacto Peel products helps to restore skin barrier function, regenerate skin, and gives deep moisture to the skin. ",
+      "features": "Лінійка Dr.Lacto Peel — це серія засобів для хімічного пілінгу, призначена для видалення мертвих клітин шкіри, очищення пор та сприяння регенерації шкіри. Лізат ферменту Lactococcus, який є основним інгредієнтом продуктів Dr. Lacto Peel, допомагає відновити функцію шкірного бар'єру, регенерувати шкіру та забезпечує їй глибоке зволоження.",
       "cardImg": "Lacto_Peel_Line.png",
       "bannerImg": "Lacto_Peel_Line_banner.jpg",
       "products": {
@@ -230,7 +230,7 @@
       "title": "Protect Line",
       "category": "Сонцезахист та тонування",
       "type": "",
-      "features": "Protect Line is an extension of the Post Rays line-up which is designed to be used on skin that has undergone professional skin care treatment. It safeguards the skin against UV damage and provides a natural barrier against moisture loss to soothe and restore the skin from inside out. ",
+      "features": "Лінійка Protect є продовженням серії Post Rays, розробленою для використання на шкірі, яка пройшла професійний догляд. Вона захищає шкіру від пошкодження ультрафіолетом і забезпечує природний бар'єр від втрати вологи, заспокоюючи та відновлюючи шкіру зсередини.",
       "cardImg": "Protect_Line.png",
       "bannerImg": "Protect_Line_banner.jpg",
       "products": {
@@ -248,7 +248,7 @@
       "title": "R20 intense Line",
       "category": "Комплексне відновлення",
       "type": "професійне",
-      "features": "R20 Intense Line is a concentrated ampoule that rejuvenates the skin for youthful vitality. This powerful ampoule works immediately to improve skin activity. With carefully selected premium ingredients, this product provides skin regeneration, soothing and moisturizing effects to restore the skin active system. Helps to heal & rejuvenate damaged skin. Promotes new skin cell growth, reducing the visibility of fine lines. Potent brightening and moisturizing properties. ",
+      "features": "Лінійка R20 Intense — це концентрована ампула, яка омолоджує шкіру, надаючи їй молодої енергії. Ця потужна ампула діє негайно, покращуючи активність шкіри. Завдяки ретельно відібраним преміум-інгредієнтам, продукт забезпечує регенерацію шкіри, заспокійливий і зволожуючий ефект, відновлюючи активну систему шкіри. Сприяє загоєнню та омолодженню пошкодженої шкіри. Стимулює ріст нових клітин шкіри, зменшуючи видимість дрібних зморшок. Має потужні освітлюючі та зволожуючі властивості.",
       "cardImg": "R20_intense_Line.png",
       "bannerImg": "R20_intense_Line_banner.jpg",
       "products": {
@@ -262,7 +262,7 @@
       "title": "Bio Cell Fluid Line",
       "category": "Активні ампули",
       "type": "професійне",
-      "features": "Bio Cell Fluid Line is a lineup of highly functional solutions that rejuvenate the skin tissue through active substances. It leads to deep penetration of highly enriched properties and maximizes device effectiveness. Recommended professional devices are Cryo Electroporation, Iontophoresis, Ultrasound, and Galvanic devices. Currently, the Cryo electroporation is gaining rapid popularity by showing rapid results. ",
+      "features": "Лінійка Bio Cell Fluid — це серія високоефективних рішень, які омолоджують тканини шкіри за допомогою активних речовин. Вона забезпечує глибоке проникнення високо насичених властивостей і максимізує ефективність професійних апаратів. Рекомендовані професійні апарати включають кріоелектропорацію, іонофорез, ультразвук і гальванічні пристрої. На даний момент кріоелектропорація стрімко набирає популярність завдяки швидким результатам.",
       "cardImg": "Bio_Cell_Fluid_Line.png",
       "bannerImg": "Bio_Cell_Fluid_Line_banner.jpg",
       "products": {
@@ -288,7 +288,7 @@
       "title": "e+ Epiderma Mask Line",
       "category": "Маски",
       "type": "професійне",
-      "features": "e+ Epiderma Mask Line has both modeling mask for professional use and mask pack for personal use. All three types of modeling mask contains Diatomaceous Earth that is found in the deep surface of the sea or lake, this porous matter not only deeply hydrates and replenishes skin with various minerals, but it also purifies skin to give a healthy glow, and Alginate which is a marine plant-based fiber that effectively removes skin impurities and ultimately leaves skin looking smooth and radiant. Nova Cell Masks are made specially to soothe and calm, while supplying abundant moisture and nourishment to the skin after skin treatments at home. ",
+      "features": "Лінійка e+ Epiderma Mask містить як моделюючі маски для професійного використання, так і маски для особистого використання. Усі три типи моделюючих масок містять кремнеземні водорості, які знаходяться на глибині морського або озерного дна. Ця пориста речовина не лише глибоко зволожує та насичує шкіру різноманітними мінералами, але й очищує її, надаючи здорового сяйва. Також до складу входить альгінат — волокно на основі морських рослин, яке ефективно видаляє забруднення шкіри, залишаючи її гладкою та сяючою. Маски Nova Cell спеціально розроблені для заспокоєння та пом’якшення шкіри, забезпечуючи її рясним зволоженням і живленням після домашніх косметичних процедур.",
       "cardImg": "Epiderma_Mask_Line.png",
       "bannerImg": "Epiderma_Mask_Line_banner.jpg",
       "products": {
@@ -330,7 +330,7 @@
       "title": "Minecel Line",
       "category": "minecel",
       "type": "професійно",
-      "features": "It contains a large amount of Minexin, a new substance extracted from natural minerals, which improves the natural skin regeneration ability of humans, and by adding efficacy ingredients according to various functions, it can be injected through Minecel Jet, a non-invasive ampoule penetration device, to maximize efficacy by allowing good ingredients to be delivered deep into the skin.",
+      "features": "Продукт містить велику кількість Minexin — нової речовини, видобутої з природних мінералів, яка покращує природну здатність шкіри до регенерації. Додаючи ефективні інгредієнти відповідно до різних функцій, продукт може вводитися за допомогою Minecel Jet — неінвазивного пристрою для проникнення ампул, що дозволяє доставляти корисні речовини глибоко в шкіру, максимізуючи ефективність.",
       "cardImg": "minecel.png",
       "bannerImg": "minecel_banner.jpg",
       "products": {
@@ -356,7 +356,7 @@
       "title": "Appliances",
       "category": "Апарати",
       "type": "",
-      "features": "Wireless micro channeling device Professional skin channeling device that precisely cares for skin problems Channel Pro minimizes unnecessary damage to the skin by creating exclusive channels for serums. This maximizes their role in addressing various skin issues, including fine lines, dull skin, stretch marks, scars, and more. It delicately cares for skin issues through three different types of tips and two-step speed control system. ",
+      "features": "Безпровідний мікроголковий пристрій — професійний пристрій для створення мікроканалів у шкірі, що точно вирішує проблеми шкіри. Channel Pro мінімізує непотрібні пошкодження шкіри, створюючи ексклюзивні канали для сироваток. Це максимізує їхню ефективність у боротьбі з різними проблемами шкіри, включаючи дрібні зморшки, тьмяну шкіру, розтяжки, рубці тощо. Пристрій делікатно вирішує проблеми шкіри завдяки трьом різним типам насадок і двоступеневій системі контролю швидкості.",
       "cardImg": "Appliances.png",
       "bannerImg": "Appliances_banner.jpg",
       "products": {
@@ -382,11 +382,12 @@
     },
     "adress": {
       "title": "Адреса: ",
-      "description": " провулок Болсуновський 3/2 А індекс 01014"
+      "description": " пров. Болсуновський 3/2А, ін. 01014"
     },
     "social": {
-      "title": "Kонтакти: ",
-      "phone": "+380-93-995-99-98"
+      "title": "Kонтакти для співпраці: ",
+      "phone": "+380-93-995-99-98",
+      "email": "hubislab.prof.ua@gmail.com"
     }
   }
 }

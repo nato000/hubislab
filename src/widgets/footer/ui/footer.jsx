@@ -1,8 +1,7 @@
 import './footer.css'
 import FacebookIcon from '../../../shared/assets/icons/facebook.svg' // Import SVG directly
 import InstagramIcon from '../../../shared/assets/icons/instagram.svg' // Import SVG directly
-import YoutubeIcon from '../../../shared/assets/icons/youtube.svg' // Import SVG directly
-import LinkedInIcon from '../../../shared/assets/icons/linkedin.svg'
+import TelegramIcon from '../../../shared/assets/icons/telegram.svg'
 import { footer } from '../../../text/ua-text.json'
 import { Link } from 'react-router-dom'
 
@@ -43,6 +42,12 @@ export const Footer = () => {
               >
                 {footer.social.phone}
               </a>
+              <a
+                className="footer-contacts__number-link"
+                href={`mailto:${footer.social.email}`}
+              >
+                {footer.social.email}
+              </a>
               <ul className="footer-socials__list">
                 <li className="footer-socials-list__item">
                   <a
@@ -51,12 +56,13 @@ export const Footer = () => {
                     target="_blank"
                   >
                     <img
-                      src={FacebookIcon}
-                      alt="Facebook"
+                      src={TelegramIcon}
+                      alt="TelegramIcon"
                       className="footer-socials-list-item-link__icon"
                     />
                   </a>
                 </li>
+
                 <li className="footer-socials-list__item">
                   <a
                     href="https://www.instagram.com/hubislab_ukraine?igsh=M2k2Y3p2cm1saW4y&utm_source=qr"
@@ -77,21 +83,8 @@ export const Footer = () => {
                     target="_blank"
                   >
                     <img
-                      src={YoutubeIcon}
-                      alt="Youtube"
-                      className="footer-socials-list-item-link__icon"
-                    />
-                  </a>
-                </li>
-                <li className="footer-socials-list__item">
-                  <a
-                    href=""
-                    className="footer-socials-list-item__link"
-                    target="_blank"
-                  >
-                    <img
-                      src={LinkedInIcon}
-                      alt="LinkedIn"
+                      src={FacebookIcon}
+                      alt="Facebook"
                       className="footer-socials-list-item-link__icon"
                     />
                   </a>

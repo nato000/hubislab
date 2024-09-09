@@ -20,7 +20,6 @@ export const ProductLineDetails = () => {
           <span className="product-line-description-features__name">
             {`${productLine.title} `}
           </span>
-          Features
         </h3>
         <img
           className="product-line-description__features-banner"
@@ -34,7 +33,7 @@ export const ProductLineDetails = () => {
           <span className="product-line-description-features__name">
             {`${productLine.title} `}
           </span>
-          Product List
+          Лінійка
         </h3>
         <div className="product-line-product-grid">
           {Object.entries(productLine.products).map(

@@ -23,7 +23,6 @@
 .product-line-card__category,
 .product-line-card__type {
   position: absolute;
-  font-weight: 500;
   display: inline-block;
 }
 
