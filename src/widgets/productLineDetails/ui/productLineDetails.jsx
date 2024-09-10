@@ -41,6 +41,8 @@ export const ProductLineDetails = () => {
               <ProductCard
                 key={index}
                 title={product.title}
+                description={product.description}
+                weight={product.weight}
                 img={`/hubislab/images/products/${product.cardImg}`}
               />
             )
