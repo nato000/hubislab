@@ -58,7 +58,6 @@ export const HomePage = () => {
             <div className="products__grid">
               {Object.entries(productsLine).map(
                 ([productId, product], index) => {
-                  console.log(product)
                   return (
                     <ProductLineCard
                       key={index}
