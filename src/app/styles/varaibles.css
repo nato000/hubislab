@@ -37,12 +37,12 @@
 
     --layout-header-size: calc(
       var(--logo-max-height) + (var(--layout-header-padding) * 4) +
-        var(--layout-header-font-size) * 3
+        var(--layout-header-font-size) * 3.5
     );
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   :root {
     --layout-header-font-size: 14px;
   }

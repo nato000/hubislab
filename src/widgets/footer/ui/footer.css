@@ -90,6 +90,9 @@
   .footer__socials {
     align-items: center;
   }
+  .footer__contacts {
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -109,5 +112,10 @@
 
   .footer-socials__title {
     margin: 15px 0 10px 0;
+  }
+
+  .footer__contacts {
+    align-items: center;
+    margin: 20px 0 10px 0;
   }
 }
