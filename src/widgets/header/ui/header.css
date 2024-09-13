@@ -45,9 +45,9 @@
   position: relative;
   padding: calc(var(--layout-header-padding)) 20px;
   font-size: var(--layout-header-font-size);
-  font-weight: 600;
+  font-weight: 400;
   line-height: var(--layout-header-font-size);
-  border: 2px solid rgb(var(--color-black));
+  border: 1px solid rgb(var(--color-black));
   border-radius: 100px;
   transition: var(--transition);
 }

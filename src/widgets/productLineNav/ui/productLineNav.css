@@ -60,7 +60,7 @@
   top: 50%;
   right: 50%;
   display: block;
-  background-color: rgb(var(--color-accent));
+  background-color: rgb(var(--color-primary));
   width: var(--size);
   height: calc(var(--size) / 4);
 }
@@ -107,7 +107,7 @@
 .porduct-line-nav-list-item__link {
   display: inline-block;
   color: rgb(var(--color-white));
-  background-color: rgb(var(--color-accent));
+  background-color: rgb(var(--color-primary));
   font-size: 16px;
   text-decoration: none;
   padding: 5px 10px;

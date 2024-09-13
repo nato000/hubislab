@@ -2,7 +2,7 @@
   "name": "hubislab",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://nato000.github.io/hubislab",
+  "homepage": "",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

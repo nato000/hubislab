@@ -19,7 +19,7 @@ export const ProductLineNav = () => {
             {Object.entries(productsLine).map(([key, product]) => (
               <li className="porduct-line-nav-list__item" key={key}>
                 <Link
-                  to={`/hubislab/product/${key}`}
+                  to={`/product/${key}`}
                   className="porduct-line-nav-list-item__link"
                 >
                   {product.title}

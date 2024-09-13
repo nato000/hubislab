@@ -23,7 +23,7 @@ export const ProductLineDetails = () => {
         </h3>
         <img
           className="product-line-description__features-banner"
-          src={`/hubislab/images/productLines/bannerImg/${productLine.bannerImg}`}
+          src={`/images/productLines/bannerImg/${productLine.bannerImg}`}
           alt={productLine.bannerImg}
         />
         <p className="product-line-description__features-description">
@@ -43,7 +43,7 @@ export const ProductLineDetails = () => {
                 title={product.title}
                 description={product.description}
                 weight={product.weight}
-                img={`/hubislab/images/products/${product.cardImg}`}
+                img={`/images/products/${product.cardImg}`}
               />
             )
           )}

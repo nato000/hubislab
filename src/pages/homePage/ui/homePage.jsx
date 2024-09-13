@@ -64,7 +64,7 @@ export const HomePage = () => {
                       title={product.title}
                       category={product.category}
                       type={product.type}
-                      img={`/hubislab/images/productLines/cardImg/${product.cardImg}`}
+                      img={`/images/productLines/cardImg/${product.cardImg}`}
                       productId={productId}
                     />
                   )

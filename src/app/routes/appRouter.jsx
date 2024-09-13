@@ -8,7 +8,7 @@ export default function AppRouter() {
   return (
     <>
       <Routes>
-        <Route path="/hubislab" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="product" element={<ProductLinePage />}>
             <Route path=":productId" element={<ProductLineDetails />} />

@@ -11,10 +11,10 @@ export const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-wrapper">
-            <Link to="/hubislab" className="footer__logo">
+            <Link to="/" className="footer__logo">
               <img
                 className="header-logo__image"
-                src="/hubislab/images/logo1.png"
+                src="/images/logo1.png"
                 alt="Logo"
               />
             </Link>

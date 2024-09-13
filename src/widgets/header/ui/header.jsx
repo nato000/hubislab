@@ -8,10 +8,10 @@ export const Header = () => {
       <header className="header">
         <div className="container">
           <div className="header-wrapper">
-            <Link to="/hubislab" className="header__logo">
+            <Link to="/" className="header__logo">
               <img
                 className="header-logo__image"
-                src="/hubislab/images/logo2.png"
+                src="/images/logo2.png"
                 alt="Logo"
               />
             </Link>
@@ -25,7 +25,7 @@ export const Header = () => {
               </span>
               {header.description.part4}
             </span>
-            <a className="header__catalog" href="/hubislab#products">
+            <a className="header__catalog" href="/#products">
               {header.catalog}
             </a>
           </div>
